@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Sony {
+    background-color: black;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: end;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    /* margin: 30px; */
+    padding: 0px 20px;
+    background-color: #fff;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.dropdown {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dropdown ul {
+    display: flex;
+    padding: 10px;
+    width: 40vw;
+    height: 40px;
+    background-color: rgb(252, 252, 255);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+li {
+    list-style: none;
+
+}
+
+#pslogo {
+    height: 35px;
+    width: 33px;
+}
+
+/* #gta{
+    width: 80vw;
+    
+} */
+#signbutton {
+    background-color: rgb(5, 103, 238);
+    color: #fff;
+    border-radius: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 8px;
+    padding: 07px;
+    width: 85px;
+    font-size: medium;
+    /* margin-bottom: 555px; */
+}
+
+.gtatext {
+    /* background-image:linear-gradient(to right, hwb(0 0% 100% / 0.755),transparent),url(/Grand-Theft-Auto-VI-pre-order-homepage-hero-mobile-02-24jun26$en.webp); */
+    background-image:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.5) 30%,
+            rgba(0, 0, 0, 0) 60%),
+        url("/Grand-Theft-Auto-VI-pre-order-homepage-hero-mobile-02-24jun26$en.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transform: scale(); */
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color:red; */
+    /* background-image: -moz-linear-gradient(black,rgb(255, 255, 255)); */
+}
+
+.gtatext h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.gtatext p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+#preorder {
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(200, 59, 10);
+    color: #fff;
+    border-radius: 18px;
+    font-weight: 600;
+    border: none;
+    /* font-size: ; */
+}
+
+#preorder:hover {
+    border: 2px solid rgb(254, 70, 8);
+}
+
+#buy {
+    padding: 10px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 18px;
+    font-weight: 600;
+    border: none;
+
+}
+
+#buy:hover {
+    border: 2px solid rgb(254, 70, 8);
+}
